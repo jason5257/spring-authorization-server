@@ -8,3 +8,9 @@ logging:
     org.springframework.security: INFO
     org.springframework.security.oauth2: INFO
 #    org.springframework.boot.autoconfigure: DEBUG
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=oauth2
+    username: root
+    password: root1234
+    driver-class-name: org.postgresql.Driver
